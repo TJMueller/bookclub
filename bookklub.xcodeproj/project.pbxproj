@@ -10,11 +10,15 @@
 		230062F01ACC730900CC237E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 230062EF1ACC730900CC237E /* main.m */; };
 		230062F31ACC730900CC237E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 230062F21ACC730900CC237E /* AppDelegate.m */; };
 		230062F61ACC730900CC237E /* bookklub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 230062F41ACC730900CC237E /* bookklub.xcdatamodeld */; };
-		230062F91ACC730900CC237E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230062F81ACC730900CC237E /* ViewController.m */; };
 		230062FC1ACC730900CC237E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230062FA1ACC730900CC237E /* Main.storyboard */; };
 		230062FE1ACC730900CC237E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230062FD1ACC730900CC237E /* Images.xcassets */; };
 		230063011ACC730900CC237E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 230062FF1ACC730900CC237E /* LaunchScreen.xib */; };
 		2300630D1ACC730900CC237E /* bookklubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2300630C1ACC730900CC237E /* bookklubTests.m */; };
+		230063181ACC740A00CC237E /* Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = 230063171ACC740A00CC237E /* Reader.m */; };
+		2300631B1ACC740A00CC237E /* Comments.m in Sources */ = {isa = PBXBuildFile; fileRef = 2300631A1ACC740A00CC237E /* Comments.m */; };
+		2300631E1ACC740A00CC237E /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 2300631D1ACC740A00CC237E /* Book.m */; };
+		230063221ACC76AF00CC237E /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230063211ACC76AF00CC237E /* FriendsViewController.m */; };
+		2300632B1ACC856200CC237E /* FriendSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2300632A1ACC856200CC237E /* FriendSelectorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +38,22 @@
 		230062F11ACC730900CC237E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		230062F21ACC730900CC237E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		230062F51ACC730900CC237E /* bookklub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bookklub.xcdatamodel; sourceTree = "<group>"; };
-		230062F71ACC730900CC237E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		230062F81ACC730900CC237E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		230062FB1ACC730900CC237E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		230062FD1ACC730900CC237E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		230063001ACC730900CC237E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		230063061ACC730900CC237E /* bookklubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookklubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2300630B1ACC730900CC237E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2300630C1ACC730900CC237E /* bookklubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bookklubTests.m; sourceTree = "<group>"; };
+		230063161ACC740A00CC237E /* Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reader.h; sourceTree = "<group>"; };
+		230063171ACC740A00CC237E /* Reader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reader.m; sourceTree = "<group>"; };
+		230063191ACC740A00CC237E /* Comments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comments.h; sourceTree = "<group>"; };
+		2300631A1ACC740A00CC237E /* Comments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comments.m; sourceTree = "<group>"; };
+		2300631C1ACC740A00CC237E /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		2300631D1ACC740A00CC237E /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		230063201ACC76AF00CC237E /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendsViewController.h; path = ../FriendsViewController.h; sourceTree = "<group>"; };
+		230063211ACC76AF00CC237E /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendsViewController.m; path = ../FriendsViewController.m; sourceTree = "<group>"; };
+		230063291ACC856200CC237E /* FriendSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendSelectorViewController.h; sourceTree = "<group>"; };
+		2300632A1ACC856200CC237E /* FriendSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendSelectorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +97,15 @@
 			children = (
 				230062F11ACC730900CC237E /* AppDelegate.h */,
 				230062F21ACC730900CC237E /* AppDelegate.m */,
-				230062F71ACC730900CC237E /* ViewController.h */,
-				230062F81ACC730900CC237E /* ViewController.m */,
+				230063201ACC76AF00CC237E /* FriendsViewController.h */,
+				230063211ACC76AF00CC237E /* FriendsViewController.m */,
+				230063291ACC856200CC237E /* FriendSelectorViewController.h */,
+				2300632A1ACC856200CC237E /* FriendSelectorViewController.m */,
 				230062FA1ACC730900CC237E /* Main.storyboard */,
 				230062FD1ACC730900CC237E /* Images.xcassets */,
 				230062FF1ACC730900CC237E /* LaunchScreen.xib */,
 				230062F41ACC730900CC237E /* bookklub.xcdatamodeld */,
+				2300631F1ACC741200CC237E /* model */,
 				230062ED1ACC730900CC237E /* Supporting Files */,
 			);
 			path = bookklub;
@@ -120,6 +135,19 @@
 				2300630B1ACC730900CC237E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2300631F1ACC741200CC237E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				230063161ACC740A00CC237E /* Reader.h */,
+				230063171ACC740A00CC237E /* Reader.m */,
+				2300631C1ACC740A00CC237E /* Book.h */,
+				2300631D1ACC740A00CC237E /* Book.m */,
+				230063191ACC740A00CC237E /* Comments.h */,
+				2300631A1ACC740A00CC237E /* Comments.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,9 +251,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				230062F31ACC730900CC237E /* AppDelegate.m in Sources */,
+				2300632B1ACC856200CC237E /* FriendSelectorViewController.m in Sources */,
+				2300631B1ACC740A00CC237E /* Comments.m in Sources */,
+				230063221ACC76AF00CC237E /* FriendsViewController.m in Sources */,
 				230062F01ACC730900CC237E /* main.m in Sources */,
-				230062F91ACC730900CC237E /* ViewController.m in Sources */,
 				230062F61ACC730900CC237E /* bookklub.xcdatamodeld in Sources */,
+				2300631E1ACC740A00CC237E /* Book.m in Sources */,
+				230063181ACC740A00CC237E /* Reader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +450,7 @@
 				230063121ACC730900CC237E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		230063131ACC730900CC237E /* Build configuration list for PBXNativeTarget "bookklubTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +459,7 @@
 				230063151ACC730900CC237E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

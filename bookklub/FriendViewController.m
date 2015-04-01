@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Timothy Mueller. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FriendViewController.h"
 
-@interface ViewController ()
+@interface FriendViewController ()
 
 @end
 
-@implementation ViewController
+@implementation FriendViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

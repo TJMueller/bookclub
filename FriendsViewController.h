@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FriendsViewController.h
 //  bookklub
 //
 //  Created by Timothy Mueller on 4/1/15.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FriendSelectorViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface FriendsViewController : UIViewController
 
 @end
-
